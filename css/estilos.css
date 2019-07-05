@@ -1,0 +1,39 @@
+html {
+  height: 100vh;
+}
+
+body{
+  background-color:	#EFEBE9;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 100%;
+}
+
+h4 {
+  margin: 2em;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type="submit"] {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-top: 1em;
+  padding: 1em 2em;
+  background-color:#F1C40F;
+}
+
+canvas {
+  position: absolute;
+left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.container {
+  position: absolute;
+left: 0;
+  top: 0;
+  z-index: 2;
+}
